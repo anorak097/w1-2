@@ -1,1 +1,15 @@
 node_modules
+
+# 忽略任何子目錄下的編輯器與 AI 工具設定
+**/.vscode/
+**/.claude/
+**/.agents/
+
+# 忽略 PlatformIO 編譯與環境目錄
+**/.pio/
+**/.pioenvs/
+**/.piolibdeps/
+
+# 系統檔案
+**/.DS_Store
+**/Thumbs.db

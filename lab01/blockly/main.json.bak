@@ -1,0 +1,93 @@
+{
+  "workspace": {
+    "blocks": {
+      "languageVersion": 0,
+      "blocks": [
+        {
+          "type": "arduino_setup_loop",
+          "id": "Dk+[.pt,u,xSW|6wQ(0d",
+          "x": 219,
+          "y": -82,
+          "deletable": false,
+          "inputs": {
+            "SETUP": {
+              "block": {
+                "type": "arduino_pin_mode",
+                "id": "S(w4/O^:V+zR%H)Bu_J1",
+                "fields": {
+                  "PIN": "2",
+                  "MODE": "OUTPUT"
+                }
+              }
+            },
+            "LOOP": {
+              "block": {
+                "type": "arduino_digital_write",
+                "id": "d(_HUAO`}EAvnIJ:=`)R",
+                "fields": {
+                  "PIN": "2"
+                },
+                "inputs": {
+                  "VALUE": {
+                    "shadow": {
+                      "type": "arduino_level",
+                      "id": "q^JdQYDe}j%k@mKhyP,^",
+                      "fields": {
+                        "LEVEL": "HIGH"
+                      }
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "arduino_delay",
+                    "id": "~!/A.erl,g6a/.z,q/fa",
+                    "fields": {
+                      "TIME": 1000
+                    },
+                    "next": {
+                      "block": {
+                        "type": "arduino_digital_write",
+                        "id": "s`BB,a~hUTtEQ10Ln9)w",
+                        "fields": {
+                          "PIN": "2"
+                        },
+                        "inputs": {
+                          "VALUE": {
+                            "shadow": {
+                              "type": "arduino_level",
+                              "id": "Z?(7gK%}uLn^(1PeD{Nh",
+                              "fields": {
+                                "LEVEL": "LOW"
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "arduino_delay",
+                            "id": "OnP|#zFIlwRH=)uzG:uR",
+                            "fields": {
+                              "TIME": 1000
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "variables": [
+      {
+        "name": "i",
+        "id": "BsZd]tO1FmGdlM;!(C32"
+      }
+    ]
+  },
+  "board": "uno"
+}
