@@ -182,7 +182,7 @@ color: dark
 
 ::content::
 
-**<di**v style="margin-bottom: 10px;">
+<div style="margin-bottom: 10px;">
     <div style="width: 100%; display: flex; align-items: flex-start; box-sizing: border-box;">
         <div style="width: 66%; padding-right: 20px; box-sizing: border-box;">
             <h2>手電筒按一下開燈，再按一下關燈，但第二次開燈變成快速閃爍，再次關燈後開啟，又變回長亮</h2>
@@ -194,7 +194,7 @@ color: dark
             <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvdOknAOI7PQolLltkn61HNE55XUFd80KIwtv6z5rdywfxkNVym1A9cofsxYfQI0PEmPgW4UJhukMIGJOH1AzXZMBKUMxjxJFtKiUpGcQxSWNYvV9fKPCG06cIGtABNcXGnP2j2_py09qf/s800/saigai_kaichu_dentou_check.png">
         </div>
     </div>
-</di**v>
+</div>
 
 ---
 transition: slide-left
