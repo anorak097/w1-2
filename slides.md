@@ -371,7 +371,7 @@ color: dark
 </h1>
 
 ::content::
-<h2>開啟 Tinkercad 或 Sigular Blockly → 板子選 UNO R3</h2>
+<h2>開啟 Tinkercad 或 Sigular Blockly → 板子選 UNO (R3)</h2>
 <div style="margin-bottom: 10px;">
     <div style="width: 100%; display: flex; align-items: flex-start; box-sizing: border-box;">
         <div style="width: 50%; padding-right: 20px; box-sizing: border-box;"> 
@@ -466,3 +466,18 @@ color: dark
 		</div>
     </div>
 </div>
+
+---
+transition: slide-left
+layout: top-title
+color: dark
+---
+
+::title::
+
+<h1 style="font-size: 3rem; padding-top: 10px; padding-bottom: 10px; font-weight: bold;  display: flex; justify-content: space-between;">
+   <span>認識按鈕開關</span><span style="font-size: 2rem; color: gray;"></span>
+</h1>
+
+::content::
+
