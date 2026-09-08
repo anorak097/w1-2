@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = ''
+elf = 'build\arduino.avr.uno\lab02.ino.elf'
