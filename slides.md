@@ -353,7 +353,7 @@ color: dark
         </div>
 		<div style="width: 50%; display: flex; flex-direction: column; align-items: center; text-align: center; box-sizing: border-box;">
         	<h2 v-click="2">使用數位腳位操作輸出 (正極)<br>使用 GND 作為低電位 (負極) </h2>
-			<img src="./public/led_blink.png" style="height: 300px; width: auto;" v-click="2">
+			<img src="./public/lab01_pingout.png" style="height: 300px; width: auto;" v-click="2">
         </div>
     </div>
 </div>
