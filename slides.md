@@ -6,7 +6,6 @@ class: text-center
 transition: slide-left
 comark: true
 slide_info: false
-download: true
 neversink_slug: 'AI 概論與實作體驗 #2 物聯網與微控制器'
 ---
 
